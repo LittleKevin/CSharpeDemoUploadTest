@@ -1,0 +1,80 @@
+
+<html>
+<head>
+<meta charset="GB-2312">
+    <title>综合管理</title>
+    <script src="echarts.min.js"></script>
+     <script src="jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main" style="width: 600px;height:400px;"></div>
+    <div id="test"></div>
+    <script type="text/javascript">
+        $('#test').html('<p>123123123131231</p>');
+    </script>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main'));
+
+option = {
+    legend: {},
+    tooltip: {},
+    dataset: {
+        // 提供一份数据。
+        source: [
+            ['主数据源', '记录数', '启用', '停用'],
+            ['生产许可证', 43.3, 85.8, 93.7],
+            ['经营许可证', 83.1, 73.4, 55.1],
+            ['注册证', 86.4, 65.2, 82.5],
+            ['授权书', 72.4, 53.9, 39.1]
+        ]
+    },
+    // 声明一个 X 轴，类目轴（category）。默认情况下，类目轴对应到 dataset 第一列。
+    xAxis: {type: 'category'},
+    // 声明一个 Y 轴，数值轴。
+    yAxis: {},
+    // 声明多个 bar 系列，默认情况下，每个系列会自动对应到 dataset 的每一列。
+    series: [
+        {type: 'bar'},
+        {type: 'bar'},
+        {type: 'bar'}
+    ]
+}
+        myChart.setOption(option);
+    </script>
+	<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <div id="main1" style="width: 600px;height:400px;"></div>
+    <script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('main1'));
+
+option = {
+    legend: {},
+    tooltip: {},
+    dataset: {
+        // 提供一份数据。
+        source: [
+            ['主数据源', '记录数', '启用', '停用'],
+            ['生产许可证', 3432, 3222, 8],
+            ['经营许可证', 3442, 3340, 23],
+            ['注册证', 12345, 1200, 82],
+            ['授权书', 53, 47, 0]
+        ]
+    },
+    // 声明一个 X 轴，类目轴（category）。默认情况下，类目轴对应到 dataset 第一列。
+    xAxis: {type: 'category'},
+    // 声明一个 Y 轴，数值轴。
+    yAxis: {},
+    // 声明多个 bar 系列，默认情况下，每个系列会自动对应到 dataset 的每一列。
+    series: [
+        {type: 'bar'},
+        {type: 'bar'},
+        {type: 'bar'}
+    ]
+}
+        myChart.setOption(option);
+    </script>
+</body>
+</html>

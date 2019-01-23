@@ -1,0 +1,9 @@
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\bin\Debug\CSharpProjectTest.exe.config
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\bin\Debug\CSharpProjectTest.exe
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\bin\Debug\CSharpProjectTest.pdb
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\obj\Debug\CSharpProjectTest.csprojResolveAssemblyReference.cache
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\obj\Debug\CSharpProjectTest.ShowImageForm.resources
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\obj\Debug\CSharpProjectTest.Properties.Resources.resources
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\obj\Debug\CSharpProjectTest.csproj.GenerateResource.Cache
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\obj\Debug\CSharpProjectTest.exe
+C:\CSharpWorkSpace\myTestProject\CSharpProjectTest\CSharpProjectTest\obj\Debug\CSharpProjectTest.pdb
